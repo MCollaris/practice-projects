@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+  font-family: Verdana, Tahoma;
+  color: #F12AE8;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 14px;
+  font-family: Verdana, Tahoma;
+  font-style: oblique;
+}
+
+#tribute-info {
+  font-family: Verdana, Tahoma;
+  font-size: 13px;
+}
+
+p {
+  font-family: Verdana, Tahoma;
+  font-size: 13px;
+}
+a:visited {
+  color: #F12AE8;
+}
