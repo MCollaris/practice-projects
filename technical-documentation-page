@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="styles.css" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+      <h1>Navigation</h1>
+      </header>
+    <ul>
+      <li>
+        <a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li>
+      <a class="nav-link" href="#Anchor_Elements">Anchor Elements</a>
+      </li>
+      <li>
+      <a class="nav-link" href="#Java_and_Javascript">Java and Javascript</a>
+      </li>
+      <li>
+      <a class="nav-link" href="#Meta_Elements">Meta Elements</a>
+      </li>
+      <li>
+      <a class="nav-link" href="#Div_Classes">Div Classes</a>
+      </li>
+      <li>
+      <a class="nav-link" href="#Lists">Lists</a>
+      </li>
+      </ul>
+</div>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>
+        <h2 id="Introduction">Introduction</h2>
+        </header>
+        <p>Below you'll find a short overview of HTML tags that you might use while coding. Please read through this information before creating your own project. For a more extensive overview of HTML tags, have a look at <a href="https://www.w3schools.com/tags/">this page</a>.</p>
+        </section>
+      <section class="main-section" id="Anchor_Elements">
+        <header>
+          <h2 id="Anchor_Elements">Anchor Elements</h2>
+          </header>
+            <p>The <code>anchor</code> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the <code>href</code> attribute, which indicates the link's destination.
+            </p>
+            <p>By default, links will appear as follows in all browsers:
+              <ul>
+                <li>An unvisited link is underlined and blue</li>
+                <li>A visited link is underlined and purple</li>
+                <li>An active link is underlined and red</li>
+            </ul>
+            </p>
+      </section>
+      <section class="main-section" id="Java_and_Javascript">
+        <header>
+          <h2 id="Java_and_Javascript">Java and Javascript</h2>
+          </header>
+          <ul>
+            <li>
+          JavaScript is the Programming Language for the Web.
+            </li>
+            <li>
+JavaScript can update and change both HTML and CSS.
+            </li>
+            <li>
+JavaScript can calculate, manipulate and validate data.
+            </li>
+          </ul>
+          <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.</p>
+      </section>
+      <section class="main-section" id="Meta_Elements">
+        <header>
+          <h2 id="Meta_Elements">Meta Elements</h2>
+          </header>
+          <p>The <code>meta</code> tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+Meta tags always go inside the head element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+<br>
+Metadata will not be displayed on the page, but is machine parsable.
+</p>
+<p>Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+<br><br>
+There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the meta tag.</p>
+      </section>
+      <section class="main-section" id="Div_Classes">
+        <body>
+        <header>
+          <h2 id="Div_Classes">Div Classes</h2>
+          </header>
+          <p>Div is an HTML element that groups other elements of the page together. <code>class</code> is an attribute. All HTML elements can carry a <code>class</code> attribute. If your elements have a <code>class</code> attribute then you will be able to write a CSS rule to select that class.</p>
+          <p>
+           <ul>
+             <li> 
+            The <code>div</code> tag defines a division or a section in an HTML document.
+            </li>
+            <li>
+            The <code>div</code> tag is used as a container for HTML elements - which is then styled with CSS  or manipulated with JavaScript.
+            </li>
+            <li>
+            The <code>div</code> tag is easily styled by using the <code>class</code> or <code>id</code> attribute.
+            </li>
+            <li>
+        Any sort of content can be put inside the <code>div</code> tag! 
+            </li>
+            </ul>
+Note: By default, browsers always place a line break before and after the <code>div</code> element.
+</p>
+      </section>
+      <section class="main-section" id="Lists">
+        <header>
+          <h2 id="Lists">Lists</h2>
+          </header>
+          <p>HTML List is a collection of related infomation. The lists can be ordered or underdered depending on the requirement. In html we can create both order and unorder lists by using <code>ol</code> and <code>ul</code> tags. Each type of list can be decorated using porper attributes or CSS also. There is one more list which is description list - HTML <code>dl</code>, <code>dt</code> & <code>dd</code> tag are used to create description lists.</p>
+          <p>As HTML offers three ways for specifying lists of information namely ordered, unordered, and definition lists. All lists must contain one or more list items.</p>
+      </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
