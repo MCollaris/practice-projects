@@ -1,0 +1,86 @@
+h1{
+  text-align: center;
+  color: #00CED1;
+  font-family: georgia;
+}
+
+p{
+  text-align: center;
+  font-family:georgia;
+}
+
+fieldset {
+  background-color: #AFEEEE;
+  border-color: gray;
+}
+
+label{
+  font-size: 1rem;
+  font-family: georgia;
+}
+
+input[type="text"] {
+  display: block;
+  width: 60%;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1rem;
+  font-family: georgia;
+  }
+
+  input[type="email"] {
+  display: block;
+  width: 60%;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1rem;
+  font-family: georgia;
+  }
+
+input[type="number"]{
+  display: block;
+  width: 60%;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1rem;
+  font-family: georgia;
+}
+
+select {
+  display: block;
+  width: 60%;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1rem;
+  font-family: georgia;
+}
+
+
+}
+
+input[type="radio"]{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1rem;
+  font-family: georgia;
+}
+
+textarea{
+  font-size: 1rem;
+  font-family: georgia;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 64%;
+  height: 2em;
+  min-width: 300px;
+  font-size: 1.1rem;
+  font-family: georgia;
+  color: white;
+  background-color: #00CED1;
+  border-color: #00CED1;
+
