@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang= "en"></html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="survey-form.css">
+</head>
+<body>
+ <h1 id="title">Amsterdam Library Survey</h1> 
+<p id="description">To understand better which books we should add to our library, we would like to know which books you read and how many. Thank you for participating!</p>
+<form id="survey-form" action="/action_page.php method"post">
+  <fieldset>
+    <label id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required><br>
+    
+    <label id="email-label">Email address:</label>
+    <input type="email" id="email" name="email" pattern=".+@example\.com" placeholder="Your email address" required><br>
+    
+    <label id="number-label">Enter your age: </label>
+    <input type="number" id="number" name="age" placeholder="Your age" min="12" max="99" required><br>
+    
+    <label for="dropdown">Enter the genre of books you like to read: </label><br>
+    <select id="dropdown" name="genre">
+      <option value="">Select one</option>
+      <option value="1">Fantasy</option>
+      <option value="2">Science Fiction</option>
+      <option value="3">Romance</option>
+      <option value="4">Thriller</option>
+      <option value="5">Young Adult</option>
+      <option value="6">Children's Fiction</option>
+    </select>
+    <br>
+
+    <label for="amount">Enter the amount of books you read every month:<br>  
+    <input type="radio" id="0-5" name="amount" value="0-5">
+    <label for="0-5">0-5</label><br>
+    <input type="radio" id="6-10" name="amount" value="6-10">
+    <label for="6-10">6-10</label><br>
+    <input type="radio" id="11-15" name="amount" value="11-15">
+    <label for="11-15">11-15<label><br>
+    <input type="radio" id="16-20" name="amount" value="16-20">
+    <label for="16-20">16-20</label><br>
+    <input type="radio" id="more-than-20" name="amount" value="more-than-20">
+    <label for="more than 20">More than 20</label><br><br>
+
+<label for="language">In which language do you like to read:</label><br>
+<input type="checkbox" id="language1" name="language1" value="English">
+  <label for="language1"> English</label><br>
+  <input type="checkbox" id="language2" name="language2" value="Dutch">
+  <label for="language2"> Dutch</label><br>
+  <input type="checkbox" id="language3" name="language3" value="French">
+  <label for="language3"> French</label><br>
+  <input type="checkbox" id="language4" name="language4" value="German">
+  <label for="language4"> German</label><br><br>
+
+<label for="comments">Do you have any comments or suggestions?</label><br>
+<textarea id="comments" rows="3" cols="40" placeholder="Enter your commment here"></textarea><br><br>
+
+  <input type="submit" value="Submit" id="submit">
+  </fieldset>
+  
+</form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
